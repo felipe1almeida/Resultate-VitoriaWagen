@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="pt-br">
 
@@ -5,8 +6,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Vitoriawagen - Resultate</title>
-    <link rel="icon" href="img/favicon.ico">
+    <title>vitoriawagen - Resultate</title>
 
     <link rel="stylesheet" href="css/index.css">
     <link rel="stylesheet" href="css/bootstrap.css">
@@ -70,15 +70,13 @@
                                                     <div class="row ">
                                                         <div class="col-5 ">
                                                             <div class=" card-body ">
-                                                                <p class="card-text text-justify msg"><b>NOVO POLO
-                                                                    </b><br>
+                                                                <p class="card-text text-justify msg"><b>NOVO POLO </b><br>
                                                                     1.0 MPI</p>
                                                             </div>
                                                         </div>
                                                         <div class="linha"></div>
                                                         <div class="col-5 ">
-                                                            <p class="card-text test msg">A PARTIR DE <b>R$
-                                                                    49.990,00</b> <br>+
+                                                            <p class="card-text test msg">A PARTIR DE <b>R$ 49.990,00</b> <br>+
                                                                 TAXA <b>0%</b></p>
                                                         </div>
                                                     </div>
@@ -98,7 +96,7 @@
                         <div class="tab-pane fade centro-carro " id="pills-up" role="tabpanel"
                             aria-labelledby="pills-up-tab">
                             <p class="rodape-endereco meio-pagina centro-carro">
-
+                                
                                 <div class="col-12">
                                     <p class="rodape-endereco meio-pagina ">
 
@@ -144,21 +142,21 @@
                                     e receba ofertas imperdíveis em primeira mão.</h6>
                             </div>
                             <div class="col-6">
-                                <form method="POST" action="./Formulario.php">
+                                <form method="POST" action="Formulario.php">
                                     <div class="form-group">
 
-                                        <input type="text" class="form-control" id="nome" placeholder="Nome" name="nome"
-                                            required>
+                                        <input type="text" class="form-control" id="formGroupExampleInput"
+                                            placeholder="Nome" name="nome">
                                     </div>
                                     <div class="form-group">
 
-                                        <input type="text" class="form-control" id="email" placeholder="E-mail"
-                                            name="email" required>
+                                        <input type="text" class="form-control" id="formGroupExampleInput2"
+                                            placeholder="E-mail" name="email">
                                     </div>
                                     <div class="form-group">
 
-                                        <input type="text" class="form-control" id="telefone" placeholder="Telefone"
-                                            name="telefone" required>
+                                        <input type="text" class="form-control" id="formGroupExampleInput2"
+                                            placeholder="Telefone" name="telefone">
                                     </div>
                                 </form>
 
@@ -166,11 +164,11 @@
                             <div class="col-6">
                                 <div class="form-group">
 
-                                    <textarea class="form-control area-de-texto" id="msg" rows="3"
-                                        placeholder="Mensagem" name="msg" required></textarea>
+                                    <textarea class="form-control area-de-texto" id="exampleFormControlTextarea1"
+                                        rows="3" placeholder="Mensagem" name="msg"></textarea>
                                 </div>
                                 <div class="col-12 botao">
-                                    <button type="button"
+                                    <button type="submit"
                                         class="btn btn-success btn-lg btn-block botao-garanta-agora">GARANTA
                                         AGORA</button>
                                 </div>
@@ -182,9 +180,27 @@
             </div>
 
         </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     </div>
 
     <!-- LETRAS PEQUENAS E RODAPÉ-->
+
+
 
     <div class="d-flex p-2 bd-highlight info-extras d-flex justify-content-center d-flex align-items-center pt-3">
         <p class="text-center">Imagens ilustrativas. Novo Polo 1.0 MPI - preto - a partir de R$ 49.990.00 -
@@ -195,6 +211,11 @@
     <div class="d-flex p-2 bd-highlight logo-final  justify-content-center">
         <img src="img/rodape.png" class="img-fluid" alt="Responsive image">
     </div>
+
+
+
+    <!-- Tab links -->
+
 
 
 
@@ -241,12 +262,15 @@
 
 
 
+    
+
+
 
 </body>
 <script src="js/jquery.js"></script>
 <script src="js/bootstrap.js"></script>
 <script src="js/index.js"></script>
 <script src="https://kit.fontawesome.com/bf38178abc.js" crossorigin="anonymous"></script>
-<script src="js/jquery.mask.js"></script>
+
 
 </html>

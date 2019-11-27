@@ -1,0 +1,141 @@
+.menu {
+    background-color:#09456C;
+    height: 28px;
+}
+.nav-link
+{
+    color: white;
+}
+.nav-link :hover
+{
+    color: white;
+}
+
+.botao-azul-menu{
+    height: 2px;
+}
+.nav-tabs{
+    margin-top: -16px;
+    height: 37px;
+}
+.active{
+    background-color: #38ADD7;
+}
+.nav-tabs .nav-link.active,
+.nav-tabs .nav-item.show .nav-link {
+  color: white !important;
+  background-color: #38ADD7 !important;
+  border: none !important;
+  border-color: none !important;
+}
+.nav-tabs .nav-link {
+    border: none !important;
+    border-top-left-radius: none !important;
+    border-top-right-radius: none !important;
+  }
+  .centro{
+    background-image: linear-gradient(to bottom, #ffffff, #f1f1f3, #e2e3e8, #d3d5dd, #c3c8d2) !important;
+  }
+  .carro{
+   
+    float: right;
+    margin-right: -100px;
+    /* margin-top: 800px; */
+  }
+.info-carro{
+    background-color: rgba(0,0,0,.05);
+    width: max-content;
+}
+.linha{ 
+  
+    border-left: 1px solid #0B466D;
+    /* border-left: 1px solid red; */
+    /* height: 500px; */
+    height: 95px;
+    margin-top: 6px;
+    
+}
+.info-extras{
+    background-color:#0478BC;
+    height: 80px;
+    color: white;
+    font-size: x-small;
+}
+.divisor-extras{
+    background-color:#09456C;
+    height: 8px;
+}
+.logo-final{
+    background-color: white;
+    /* height: 80px; */
+}
+.rodape{
+    background-color:#09456C;
+    height: 80px;
+    padding: -0.5rem !important;
+}
+.rodape-conteudo{
+    background-color:#09456C !important;
+    /* height: 280px; */
+    padding-bottom: 1px;
+}
+
+.rodape-endereco{
+    color: white;
+    background-color:#09456C !important;
+}
+
+.link-redes-sociais{
+    color: white;
+}
+.meio-pagina{
+    background-image: linear-gradient(to bottom, #ffffff, #f1f1f3, #e2e3e8, #d3d5dd, #c3c8d2) !important;
+
+}
+.descricao-carro{
+    background-color: #D5D9DD !important;
+}
+
+.centro-carro{
+    background-color: transparent !important;
+}
+
+.test{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%) 
+}
+
+.frase-lateral{
+    color: #205D87 !important;
+}
+
+.area-de-texto{
+    height: 147px !important;
+}
+
+.botao-garanta-agora{
+    border-radius: 0 !important;
+    /* width: 238px !important;
+    margin-left: -13px !important; */
+    background-color: #70B85B !important;
+}
+
+.botao{
+    padding: 0 !important;
+    padding-bottom: 15px !important;
+    /* background-color: #70B85B !important; */
+}
+
+.botoes-topo{
+    height: 36px !important; 
+}
+
+.botoes-topo{
+    margin-top: -4px !important;
+}
+.msg{
+    color: #28466A;
+}
